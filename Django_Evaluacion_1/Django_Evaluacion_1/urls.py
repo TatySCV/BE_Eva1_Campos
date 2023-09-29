@@ -16,7 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from Eva1_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index),
+    path('usuario/', views.usuario),
+    path('libros/', views.libros),
+    path('canciones/', views.canciones),
+    path('peliculas/', views.peliculas),
+
+    path('After/', views.After),
+    path('Ciudades/', views.Ciudades),
+    path('Damián/', views.Damián),
+    path('Divergente/', views.Divergente)
 ]
