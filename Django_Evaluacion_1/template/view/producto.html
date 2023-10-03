@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,15 +19,15 @@
     
     <div class="text-center">
         <div class="row mx-auto">
-            <div class="col"><a href="/{{producto1}}" class="btn btn-outline-info w-50 p-3"><br>{{producto1}}</a></div>
-            <div class="col"><a href="/{{producto2}}" class="btn btn-outline-info w-50 p-3"><br>{{producto2}}</a></div>
+            <div class="col"><a href="/{{producto1}}" class="btn btn-outline-info w-50 p-3"><img src="{%static 'img/'%}{{foto1}}" width="100px" height="150px" alt=""><br>{{producto1}}</a></div>
+            <div class="col"><a href="/{{producto2}}" class="btn btn-outline-info w-50 p-3"><img src="{%static 'img/'%}{{foto2}}" width="100px" height="150px" alt=""><br>{{producto2}}</a></div>
         </div>
 
         <br><br>
 
         <div class="row mx-auto">
-            <div class="col"><a href="/{{producto3}}" class="btn btn-outline-info w-50 p-3"><br>{{producto3}}</a></div>
-            <div class="col"><a href="/{{producto4}}" class="btn btn-outline-info w-50 p-3"><br>{{producto4}}</a></div>
+            <div class="col"><a href="/{{producto3}}" class="btn btn-outline-info w-50 p-3"><img src="{%static 'img/'%}{{foto3}}" width="100px" height="150px" alt=""><br>{{producto3}}</a></div>
+            <div class="col"><a href="/{{producto4}}" class="btn btn-outline-info w-50 p-3"><img src="{%static 'img/'%}{{foto4}}" width="100px" height="150px" alt=""><br>{{producto4}}</a></div>
         </div>
 
     <a href="/"class="btn btn-outline-info mt-5"><i class="bi bi-reply-fill"></i>Volver</a>

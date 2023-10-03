@@ -29,5 +29,10 @@ urlpatterns = [
     path('After/', views.After),
     path('Ciudades/', views.Ciudades),
     path('Damián/', views.Damián),
-    path('Divergente/', views.Divergente)
+    path('Divergente/', views.Divergente),
+
+    path('Baby/', views.Baby),
+    path('Feo/', views.Feo),
+    path('Ferxxo/', views.Ferxxo),
+    path('Vagabundo/', views.Vagabundo)
 ]

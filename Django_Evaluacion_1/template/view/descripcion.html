@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +16,8 @@
 
     <div class="text-center display-8">Evaluación uno - Programación Back-end</div>
     <div class="text-center display-6">{{producto}}</div> <br><br>
+
+    <center><img src="{%static 'img/'%}{{imagen}}" height="300px" alt=""><br><br></center>
 
     <div class="text-center">{{descripcion}}</div>
     
