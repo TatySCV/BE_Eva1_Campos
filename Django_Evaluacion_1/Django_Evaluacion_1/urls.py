@@ -34,5 +34,10 @@ urlpatterns = [
     path('Baby/', views.Baby),
     path('Feo/', views.Feo),
     path('Ferxxo/', views.Ferxxo),
-    path('Vagabundo/', views.Vagabundo)
+    path('Vagabundo/', views.Vagabundo),
+
+    path('Elementos/', views.Elementos),
+    path('Encantada/', views.Encantada),
+    path('SpiderMan/', views.SpiderMan),
+    path('Thor/', views.Thor)
 ]
